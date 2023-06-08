@@ -6,6 +6,10 @@ body{
 
 #welcome-section {
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background-color: bisque;
 
 }
@@ -13,13 +17,24 @@ body{
 #navbar {
     position: fixed;
     top: 0;
-    left: 0;
+    right: 0;
     height: 100%;
+    min-width: 270px;
+    max-width: 290px;
+    
 
 }
 
 #welcome-section p {
+   
     font-size: 30px;
+    
+}
+
+#welcome-section {
+   padding-top: 15vh;
+    
+
 }
 
 @media(max-width:800px) {
